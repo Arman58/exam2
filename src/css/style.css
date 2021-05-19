@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.future_section {
+  width: 1360px;
+  height: 650px;
+  background-image: url("./images/Rectangle\ \(1\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.future_section_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 57px;
+  color: #ffffff;
+}
+
+.future_section_paragraph {
+  color: white;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 40px;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+}
+
+.future_section_buttons {
+  margin-top: 45px;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  width: 215px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  height: 36px;
+  border: 1px solid white;
+  background: none;
+  color: #bfbfb8;
+  font-size: 14px;
+}
+.first-btn {
+  margin-right: 15px;
+}
